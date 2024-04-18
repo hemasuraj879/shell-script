@@ -18,11 +18,11 @@ fi
 #CHECKING LINUX FLAVOUR
 FLAVOUR_DISTRIBUTION=$(grep '^ID=' /etc/os-release | cut -d '=' -f2)
 
-if [ $FLAVOUR_DISTRIBUTION == "ubuntu" ]
+if [ "$FLAVOUR_DISTRIBUTION" == "ubuntu" ]
 then
     echo "LINUX DISTRIBUTION IS UBUNTU"
     apt install git -y
-elif [ $FLAVOUR_DISTRIBUTION == "centos" ]
+elif [ "$FLAVOUR_DISTRIBUTION" == "centos" ]
 then
     echo "LINUX DISTRIBUTION IS CENTOS"
     yum install git -y
