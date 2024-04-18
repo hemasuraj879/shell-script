@@ -28,7 +28,7 @@ then
     echo "LINUX DISTRIBUTION IS CENTOS"
     yum install git -y
 else
-    echo "LINUX DISTRIBUTION IS NOT UBUNTU AND CENTOS
+    echo "LINUX DISTRIBUTION IS NOT UBUNTU AND CENTOS"
 fi
 
 
