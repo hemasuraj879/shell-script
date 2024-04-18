@@ -22,8 +22,7 @@ if [ $FLAVOUR_DISTRIBUTION == "ubuntu" ]
 then
     echo "LINUX DISTRIBUTION IS UBUNTU"
     apt install git -y
-elif
-if [ $FLAVOUR_DISTRIBUTION == "centos" ]
+elif [ $FLAVOUR_DISTRIBUTION == "centos" ]
 then
     echo "LINUX DISTRIBUTION IS CENTOS"
     yum install git -y
