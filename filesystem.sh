@@ -18,6 +18,7 @@ then
 fi 
 
 # COMMAND TO GET THE TOP 5 FILES CONSUMING MORE MEMORY
-FILEPATH=$1 &>>$LOGFILE
+FILEPATH=/etc &>>$LOGFILE
 FILE_SYSTEM_SIZE=$( sudo du -ah /etc | sort -hr | head -n 5) 
+echo "$FILE_SYSTEM_SIZE"
 
