@@ -17,7 +17,7 @@ then
     exit 1
 fi 
 
-FILE_PATH=$(/home/centos/lalli)
+FILE_PATH=$(/root/lalli)
 if [ -e $FILE_PATH ]
 then   
     echo "FILE ALREADY EXISTS"
